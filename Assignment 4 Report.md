@@ -34,6 +34,25 @@
 # how did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
+## Selenium
+
+Advantages:
+- User-friendly interface, simple and very easy to use
+- Allows you to replay the sequence of steps of the test script
+
+Disadvantages:
+- Slow performance and caused webpages to become unresponsive
+
+## Sikulix
+
+Advantages
+- Image recognition makes it easy to test specific elements of a webpage
+- Automates flash objects, while Selenium does not
+
+Disadvantages:
+- Having to manually write the test scripts
+- User interface is not as friendly as Selenium
+
 
 # How the team work/effort was divided and managed
 
