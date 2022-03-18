@@ -29,11 +29,57 @@
 
 # Explain your SELENUIM test case design process
 
-# Explain the use of assertions and checkpoints
+# Use of Assertions and Checkpoints
 
-# how did you test each functionaity with different test data
+# Testing each Functionaity with Different Test Data
+When creating our GUI tests, we tried to cover a wide range of common functionalities users come across while using the Best Buy website. Each functionality was tested with different data sets to ensure they work correctly.
 
-# Discuss advantages and disadvantages of Selenium vs. Sikulix
+## Functionalities Tested
+1. Login
+2. Creating an account
+3. Adding to cart
+4. Using the search bar
+5. Using the menu
+6. Using the filters
+7. Finding stores
+8. Viewing deals
+
+## Different Test Data
+
+Login:
+- Login with valid credentials
+- Login with invalid credentials (incorrect email and password)
+
+Creating an account:
+- Create an account with valid credentials
+- Create an account with invalid credentials (wrong password)
+
+Adding to cart:
+- Adding a TV to cart
+- Adding a monitor to cart
+
+Using the search bar:
+- Search for an LG dishwasher
+- Search for an iPhone
+- Search for SD card
+
+Using the menu:
+- Browse headphones
+- Browse mouse and keyboards
+
+Using the filters:
+- Filter high to low
+- Filter by On Sale
+
+Finding stores:
+- Find stores in Calgary
+- Find stores in Alberta
+
+Viewing deals:
+- View spring deals
+- View top selling products
+
+# Advantages and Disadvantages of Selenium & Sikulix
 ## Selenium
 
 Advantages:
