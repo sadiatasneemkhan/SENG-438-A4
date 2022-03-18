@@ -1,0 +1,586 @@
+{
+  "id": "79eff641-7814-4b7c-9290-bc354c6d2495",
+  "version": "2.0",
+  "name": "SENG 438 A4",
+  "url": "https://www.bestbuy.ca",
+  "tests": [{
+    "id": "3b0f7c19-2fe0-4570-8606-0b39f43e9ad1",
+    "name": "Create a new account - valid",
+    "commands": [{
+      "id": "1936d4ef-d5a9-4424-84c6-e2eb446a38f8",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "360f4617-8750-48c2-abcf-e745486d6994",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10c5c3eb-a49f-41c8-a76a-ad8bbd80374b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.SignInOutNavIcon_1TL-_", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bestbuy.ca/identity/global/signin?redirectUrl=https%3A%2F%2Fwww.bestbuy.ca%2Faccount%2Fen-ca&lang=en-CA')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eef0cc6-bbe2-4934-91f2-ebe934104543",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.SignInOutNavIcon_1TL-_", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bestbuy.ca/identity/global/signin?redirectUrl=https%3A%2F%2Fwww.bestbuy.ca%2Faccount%2Fen-ca&lang=en-CA')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e63a4a93-8a5c-4f75-a4b4-03a808639ccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountLabel_2-flX",
+      "targets": [
+        ["css=.accountLabel_2-flX", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19fd4336-acd9-437f-abc2-d562a8ae7f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3Po4I > span",
+      "targets": [
+        ["css=.\\_3Po4I > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c074d7c-2d30-4e75-815b-5a158e579a34",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be0c8eca-0aa8-4553-8ac3-635741413ddd",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sadia"
+    }, {
+      "id": "c2f6aecb-2b38-4582-bf6e-44e8eb8afc8c",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Khan"
+    }, {
+      "id": "869a19e0-2fd2-4869-9176-8727ca78d0fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sadia.uofc@gmail.com"
+    }, {
+      "id": "6a4cf4ff-50f1-48a8-8b50-d107fee51dec",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SENG438!"
+    }, {
+      "id": "316c36d3-c39b-4a66-a1f7-5ef9b83ed7d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm",
+      "targets": [
+        ["css=.GSYpm", "css:finder"],
+        ["xpath=//form[@id='createAccount']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fb5dc136-fa12-4fd8-a0a5-8eaee7716edf",
+    "name": "Create a new account - invalid",
+    "commands": [{
+      "id": "75ff805b-851a-47b5-b31e-a2c7dd571567",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a499ac8-95bf-4fa1-81fa-8ae94154949c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc88855d-71eb-4f7f-80e5-5d32eb54ad4d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86afc84e-265d-424f-9383-9a84e557e822",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d395b78-df05-4581-8784-7f39ff8bfca4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3Po4I > span",
+      "targets": [
+        ["css=.\\_3Po4I > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c24f2a75-61db-4da5-a787-9bccc2715911",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "345c7047-8c2b-4c8f-87b7-054cf7af065f",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Sadia"
+    }, {
+      "id": "e9e9b391-1fb3-4222-8a19-2fbf269a1859",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Khan"
+    }, {
+      "id": "43369b0e-f402-4c34-8428-720776885362",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sadiak.shopping@gmail.com"
+    }, {
+      "id": "13a77304-52ce-4517-bd20-2ba0577b3c1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/fieldset/div[3]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "acbk24"
+    }, {
+      "id": "7ffed0d4-b9ac-45ff-87a2-cb0d5afd9b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3PA_N",
+      "targets": [
+        ["css=.\\_3PA_N", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='createAccount']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6521bcc7-e095-4ddc-a200-3f356f004da8",
+    "name": "Login to an account - invalid",
+    "commands": [{
+      "id": "256cb23b-98bb-4af6-a7b1-c23ba5c9cec3",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79903423-d194-49de-8782-c367e2858d4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5431af8-0e42-4d88-aa49-6339414ae98e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "553b815d-b3b5-491c-a914-b0cbe250aa29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountLabel_1acbc",
+      "targets": [
+        ["css=.accountLabel_1acbc", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a5c46b-d3aa-4b42-8c78-7f2bc37ea3cd",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "9,221"
+    }, {
+      "id": "4c86c7a3-b282-40b8-a227-2b76cad61b0d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "9,221"
+    }, {
+      "id": "e95580ec-a6e7-4382-be2e-500d59ab9405",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "9,221"
+    }, {
+      "id": "95c74e41-c264-4a92-991c-1816f1fb35e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5b7101-ac28-4895-a2df-ea0733386f8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sadiauofc@gmail.com"
+    }, {
+      "id": "53e861ae-109f-423a-9461-7d09ad6806c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SENG438!!!"
+    }, {
+      "id": "6817956e-5852-4746-bc31-ce8fb6e26ff5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm",
+      "targets": [
+        ["css=.GSYpm", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a143d83a-f3c7-4b13-b6bc-b8fd79966233",
+    "name": "Login to an account - valid",
+    "commands": [{
+      "id": "ebcb7b7a-8e05-408c-a401-6f854d72c31d",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad9f70d7-09b4-4971-897f-fca48a706da1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d7fd27-12cd-47b3-ba7b-229bcefcfde8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.SignInOutNavIcon_P7Grx", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bestbuy.ca/identity/global/signin?redirectUrl=https%3A%2F%2Fwww.bestbuy.ca%2Faccount%2Fen-ca&lang=en-CA')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb77bbfe-42f3-4ed1-b4e1-c20921bf10fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.SignInOutNavIcon_P7Grx", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.bestbuy.ca/identity/global/signin?redirectUrl=https%3A%2F%2Fwww.bestbuy.ca%2Faccount%2Fen-ca&lang=en-CA')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eed92e0-8474-4cfb-9bbf-703c7815b6eb",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "27,223"
+    }, {
+      "id": "f482bb8f-5b95-4e52-8077-96d4f15bebd1",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "27,223"
+    }, {
+      "id": "17913eab-0bf6-4309-b709-3e9b005f04a2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "27,223"
+    }, {
+      "id": "5a61ad8e-5b0f-4c9a-beb8-d58ed25d3568",
+      "comment": "",
+      "command": "click",
+      "target": "css=.global-signin-page-content-container",
+      "targets": [
+        ["css=.global-signin-page-content-container", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e37075-4093-4630-a2ff-6c40f51641c6",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sadia.uofc@gmail.com"
+    }, {
+      "id": "1fbb61dd-6921-407f-b331-bb3f8082b52d",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='signIn']/fieldset/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SENG438!"
+    }, {
+      "id": "53b34f7c-6990-43a8-b0e3-fd105a901f26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.GSYpm > span",
+      "targets": [
+        ["css=.GSYpm > span", "css:finder"],
+        ["xpath=//form[@id='signIn']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc2514c-ac47-4581-9865-f754bfcc3bff",
+      "comment": "",
+      "command": "click",
+      "target": "css=span .\\_1_CZk",
+      "targets": [
+        ["css=span .\\_1_CZk", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/div/div[2]/div[2]/div/div/div/a/span/div/span", "xpath:idRelative"],
+        ["xpath=//span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b761ddb3-69c2-4510-83b9-c5c18242c0f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.PFgX0:nth-child(2)",
+      "targets": [
+        ["css=.PFgX0:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/header/div/div/div/div[2]/div[2]/div/div/div[2]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5084aefe-d049-48f6-818b-28f910b2f341",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7f2fff2c-508c-4fde-85c5-4d37ebeb1e4f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3b0f7c19-2fe0-4570-8606-0b39f43e9ad1"]
+  }],
+  "urls": ["https://www.bestbuy.ca/"],
+  "plugins": []
+}
