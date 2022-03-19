@@ -90,8 +90,7 @@ In our test suite, we have covered this scenario where the test case expects tha
 ![DU Initial](https://user-images.githubusercontent.com/81999006/159105831-78c99444-beec-4bd0-8ffb-b149813b1646.png)
 
 ## DataUtilities Final
-
-# Analysis drawn on the effectiveness of each of the test classes
+![DU Final](https://user-images.githubusercontent.com/81999006/159108491-be95b51c-7e91-496c-8580-16e88368e3d6.png)
 
 # Discussion on the effect of equivalent mutants on mutation score accuracy
 
