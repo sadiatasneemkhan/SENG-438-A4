@@ -81,12 +81,13 @@ In our test suite, we have covered this scenario where the test case expects tha
 # Report all the statistics and the mutation score for each test class
 
 ## Range Initial
-![Range Initial](https://user-images.githubusercontent.com/81999006/159105239-c92a499c-0f27-4b70-8a5b-b562d9c22c49.png)
+![Range Initial](https://user-images.githubusercontent.com/81999006/159105799-ba8f64a9-63c8-47f1-9c40-99c112f4e2e9.png)
 
 ## Range Final
-![Range Final](https://user-images.githubusercontent.com/81999006/159105236-5f274e78-7aca-413b-9dc1-023b46f074b2.png)
+![Range Final](https://user-images.githubusercontent.com/81999006/159105813-227031bb-0e39-48c7-98dc-ba7385c06b18.png)
 
 ## DataUtilities Initial
+![DU Initial](https://user-images.githubusercontent.com/81999006/159105831-78c99444-beec-4bd0-8ffb-b149813b1646.png)
 
 ## DataUtilities Final
 
