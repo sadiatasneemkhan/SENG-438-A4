@@ -1,0 +1,298 @@
+{
+  "id": "5da95d34-cbe0-4aac-98c7-45979c72f9ac",
+  "version": "2.0",
+  "name": "438Lab4",
+  "url": "https://www.bestbuy.ca",
+  "tests": [{
+    "id": "80de4e2a-7379-4303-bb4d-1e46ec5a6fd7",
+    "name": "ScrollThroughMar10Deals",
+    "commands": [{
+      "id": "c91a87de-12db-4e28-ab33-1049b7358834",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10bb8e0e-60a6-419c-9684-32291c3f220a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d15fbe1b-085d-4597-8ac9-5ce68d5f4652",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1146b28-d838-45d0-a2b1-4e58d6a4499d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column_3St0Y:nth-child(1) .offerCta_1Yysd:nth-child(4) > span",
+      "targets": [
+        ["css=.column_3St0Y:nth-child(1) .offerCta_1Yysd:nth-child(4) > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/div/div/div[2]/section[6]/div/div/div/a/p[3]/span", "xpath:idRelative"],
+        ["xpath=//section[6]/div/div/div/a/p[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6bba74c-a3f1-48cf-bc90-354b876617c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sliderNextArrow_1bq3k",
+      "targets": [
+        ["css=.sliderNextArrow_1bq3k", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0d45fc-e5e5-490e-b986-a363bfbad8fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sliderNextArrow_1bq3k",
+      "targets": [
+        ["css=.sliderNextArrow_1bq3k", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "abca3647-907f-450b-ac01-fc1919e4e906",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sliderNextArrow_1bq3k",
+      "targets": [
+        ["css=.sliderNextArrow_1bq3k", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba0f407-0ea6-4bbe-a563-14d2ebd6d1e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5a925a00-bb26-40a4-a138-27a486abd345",
+    "name": "SearchForDishwasher",
+    "commands": [{
+      "id": "de3f16a0-9704-493c-8b9f-56d2487d8be4",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c382c9-3169-4120-89cb-78193fe4cf48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c361f5f-f3a0-419d-9772-a1c8738cc9c5",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Lg dishwasher"
+    }, {
+      "id": "8b6f51fd-6356-46cb-9366-07834485518d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "799f9eab-1dda-497c-b668-c0a399352efa",
+    "name": "ScrollThroughPopular",
+    "commands": [{
+      "id": "4b8ae402-c37c-45e2-b063-f8ecbb40d672",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fd3676d-6116-4262-af3d-893174d9ad54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d5cf9df-3200-4131-9428-e778cfe6f6b4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1101)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "309410ef-c431-42bf-9385-c902903d531b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2512)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaaf70f4-b75e-4f24-9f11-748eb07cfaa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-top-sellers .navArrowContainer_DMNpz:nth-child(3) path",
+      "targets": [
+        ["css=.x-top-sellers .navArrowContainer_DMNpz:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "135f111c-2796-471b-8f1c-cfdebc993b2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-top-sellers .navArrowContainer_DMNpz:nth-child(3) path",
+      "targets": [
+        ["css=.x-top-sellers .navArrowContainer_DMNpz:nth-child(3) path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "721ae7be-4c4d-4728-9a73-a30601756f43",
+    "name": "SearchForIphone",
+    "commands": [{
+      "id": "09bde65f-bcdb-4454-a045-f5f062bc4595",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac7f4100-eb5d-4ff5-a1a5-ecab98ac3ce7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2a03020-7623-46d5-9db2-edd5b5f1f97a",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Iphone"
+    }, {
+      "id": "c883ce86-3f5d-469a-a744-0721bf0cce46",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c4c2fd00-1e0f-4a5c-b991-5ed0dd8b10dd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4736e62-e08f-47dd-a4e3-37e552f4888b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1600)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1cfa37ca-59f9-4b9c-9652-3090c3bf49e9",
+    "name": "SearchForSDCard",
+    "commands": [{
+      "id": "27e9e436-11da-49ef-aeb5-b3769cb47997",
+      "comment": "",
+      "command": "open",
+      "target": "/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0645a024-237b-4241-a666-aa2fe7f9b32d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1900x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab85f6f8-d588-43ac-9bb8-b4d48405b433",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "SD card"
+    }, {
+      "id": "fab549d3-e673-4c5f-8681-5ab368d71342",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.textField_XaJoz", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ae5cbc12-075e-4a48-ad41-fe7ad2540397",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,290)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22185070-5ace-47cd-acbb-4b7355ddabf8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,843)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "87e6aabe-ed20-4b5c-8cd2-b87523365afa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.bestbuy.ca/"],
+  "plugins": []
+}
