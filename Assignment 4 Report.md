@@ -95,6 +95,9 @@ To improve our mutation score of the test suites, we analysed the initial mutati
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
+Mutation testing has many advantages that increase the overall quality of test suites. It protects a program from potential bugs by checking if the test suite is strong enough to kill injected faults. Mutants can be automated, which makes it easier to use mutation testing on a test suite. The more bugs that are detected, the better the the test suite is. This fault-based testing approach improves the completeness and quality of the test suite. However, mutation testing also has its disadvantages. The execution and analysis time is extremely slow for automated mutation testing tools, as we have seen first hand from using PIT test. Also, mutation testing cannot be used alongside black box tsting since access to the source code is required in order to inject mutants. 
+
+
 # Explain your SELENUIM test case design process
 
 When coming up with our test cases on selenium, we tried to test each of the major features of the best buy website to ensure functionality of the website. Once each group member chose a functionality of the website we used selenium to record the process of us using the specified functionality. After creating the test suite we ran our tests to ensure the tests would pass. 
@@ -175,10 +178,12 @@ Disadvantages:
 
 # How the team work/effort was divided and managed
 
-The work for the mutation testing was done in 2 groups - Sadia and Luis on Range, and Adam and Jaxson on DataUtilities. Each group made test cases to ensure that the Mutation coverage was 10% higher than the original suite. We all met up afterwards to go over the new test suites and how they improved from the last. For the GUI Testing, each person was responsible for 2 different functionalities for the Best Buy website. We all recorded our scripts and reviewed them with one another to ensure we all the functionalities we had proposed in our test plan. Once the main part of the lab was done, we moved to the lab report. The lab report was divided into sections and assigned to each group member. Each group member was responsible for a few sections of the lab report and had to complete their sections by the day before the submission deadline, in order for the group to meet and look over each section. Each section was approved by all the group members before submitting the report. 
+The work for the mutation testing was done in 2 groups - Sadia and Luis on Range, and Adam and Jaxson on DataUtilities. Each group made test cases to ensure that the mutation coverage was 10% higher than the original suite. We all met up afterwards to go over the new test suites and how they improved from the last. For the GUI Testing, each person was responsible for 2 different functionalities for the Best Buy website. We all recorded our scripts and reviewed them with one another to ensure we all the functionalities we had proposed in our test plan. Once the main part of the lab was done, we moved to the lab report. The lab report was divided into sections and assigned to each group member. Each group member was responsible for a few sections of the lab report and had to complete their sections by the day before the submission deadline, in order for the group to meet and look over each section. Each section was approved by all the group members before submitting the report. 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-Working with PIT Test was quite challenging due to the issue...
+Working with PIT Test was quite challenging due to the issue with setting this lab up. Once it was fixed, the only other issues that were encountered was the amount of time that it required for PIT test to execute the mutation tests. Lessons that we learnt from these teamwork activities is that it is much easier and faster to bounce ideas off of each other in terms of understanding the mutation tests and how we could improve them.
 
 # Comments/feedback on the lab itself
+
+Since setting up the lab was a bit challenging, clearer instructions should be provided in the future. 
