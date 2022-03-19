@@ -1,0 +1,409 @@
+{
+  "id": "772de095-8cc2-41b7-948d-1b8d183aa30b",
+  "version": "2.0",
+  "name": "SENG438Lab4",
+  "url": "https://www.bestbuy.ca/",
+  "tests": [{
+    "id": "f7e8cfd9-d392-4c26-9ef6-cd752ba1d705",
+    "name": "Browse headphones",
+    "commands": [{
+      "id": "72763f5f-7893-4c21-8959-6c0f1d608f86",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "007fd53d-bd8b-44a7-aa3f-2832f7c04eae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "141db149-79e7-4432-8b89-2d0d63f9eb2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) button > .white_3qh7k",
+      "targets": [
+        ["css=li:nth-child(1) button > .white_3qh7k", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "149e9fe1-0ccc-4abf-8b23-b986754e28f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Headphones",
+      "targets": [
+        ["linkText=Headphones", "linkText"],
+        ["css=.visible_3dJAE .subCategoryList_1p898:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Headphones')])[3]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div[8]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/headphones/21268')]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f236c6-f03a-4ee4-bf77-7b30d7ba8fdb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50e0b805-4a67-4bc0-8322-35e39ce4bf38",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,883)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbe6aedb-c778-49f8-a008-f8fb8bb80105",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1680)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fb967436-e5e6-48d1-b5f8-13023021fe6e",
+    "name": "Brows keyboards",
+    "commands": [{
+      "id": "1b1328f0-9013-4ea3-b71f-2edfeca03959",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a41a78e-7c98-4688-88fe-198c2f3395f4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "972ba453-11cb-4d6b-a0ae-e835dc19be41",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cameras, Drones & Luggage",
+      "targets": [
+        ["linkText=Cameras, Drones & Luggage", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cameras, Drones & Luggage')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/cameras-camcorders/20005')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cameras, Drones & Luggage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "472a0e32-5eb6-4d22-98d0-065469b1cbf5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Cameras, Drones & Luggage",
+      "targets": [
+        ["linkText=Cameras, Drones & Luggage", "linkText"],
+        ["css=.selected_3gnUn", "css:finder"],
+        ["xpath=//a[contains(text(),'Cameras, Drones & Luggage')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/cameras-camcorders/20005')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cameras, Drones & Luggage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a588a73b-f543-4b45-a1fd-e2278149b040",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Headphones, Speakers & Audio",
+      "targets": [
+        ["linkText=Headphones, Speakers & Audio", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Headphones, Speakers & Audio')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/audio/659699')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Headphones, Speakers & Audio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b0c5d37-7a92-4192-b53d-f274f6071790",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Headphones, Speakers & Audio",
+      "targets": [
+        ["linkText=Headphones, Speakers & Audio", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Headphones, Speakers & Audio')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/audio/659699')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Headphones, Speakers & Audio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d16090f3-e7f5-4732-bb4d-74748d490ec4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Cell Phones and Accessories",
+      "targets": [
+        ["linkText=Cell Phones and Accessories", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cell Phones and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/best-buy-mobile/20006')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cell Phones and Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2ea5245-7725-43da-90bf-b960f8499227",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Cell Phones and Accessories",
+      "targets": [
+        ["linkText=Cell Phones and Accessories", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cell Phones and Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/best-buy-mobile/20006')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cell Phones and Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed137f1a-9656-410c-b578-e7e39460fd58",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Computers, Tablets & Accessories",
+      "targets": [
+        ["linkText=Computers, Tablets & Accessories", "linkText"],
+        ["css=.categoryList_17lEN > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers, Tablets & Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/computers-tablets/20001')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computers, Tablets & Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aea8c332-5831-4f24-bc75-e522b0095875",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Computers, Tablets & Accessories",
+      "targets": [
+        ["linkText=Computers, Tablets & Accessories", "linkText"],
+        ["css=.selected_3gnUn", "css:finder"],
+        ["xpath=//a[contains(text(),'Computers, Tablets & Accessories')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/computers-tablets/20001')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Computers, Tablets & Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cc3c6a9-b9cf-4584-8882-94209f28353b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mice & Keyboards",
+      "targets": [
+        ["linkText=Mice & Keyboards", "linkText"],
+        ["css=.visible_3dJAE .subCategoryList_1p898:nth-child(3) li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mice & Keyboards')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div[2]/div/div/div/div/div/ul/li/div/div[2]/div/div[3]/div[2]/div[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en-ca/category/mice-keyboards/29578')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mice & Keyboards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6fa91e4-9d62-4093-b2b5-719e796f287f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,199)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b50ae6d6-5083-4a1a-8666-395607f3a1c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,779)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dde9ffee-5786-485f-a1b3-12aa42420a78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1212)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "45452b35-9e59-445e-8140-3e0db8ae58dc",
+    "name": "View stores calgary",
+    "commands": [{
+      "id": "623287f6-eb21-4ddf-b487-b774fdb5272f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be9bf922-f44c-424f-9d18-03d90314ed1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90126d56-789f-415c-b8ce-9e37ac23d0bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.storesLabel_184Qo",
+      "targets": [
+        ["css=.storesLabel_184Qo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5481",
+      "windowTimeout": 2000
+    }, {
+      "id": "5af68351-85ba-41bb-904e-1b94f3d18851",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5481}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1c8959b-b604-4b6d-a390-8f05842827fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b111c416-44ef-46b5-8012-73d09db59382",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "c45df440-6319-4bf4-9f5e-7c6c87ae4fa6",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.Locator-filtersButton",
+      "targets": [
+        ["css=.Locator-filtersButton", "css:finder"],
+        ["xpath=//form[@id='search-form']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f1ae60ec-f166-4017-a08e-f63582248043",
+    "name": "View stores alberta",
+    "commands": [{
+      "id": "5e31d68b-876f-4ca9-b33d-f08ae21f2614",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.bestbuy.ca/en-ca",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77649516-4623-4069-86c7-f7fb162227db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x814",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c34cbb7a-495e-433a-9159-7543f36194dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.storesLabel_184Qo",
+      "targets": [
+        ["css=.storesLabel_184Qo", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[4]/header/div/div/div/div[2]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1035",
+      "windowTimeout": 2000
+    }, {
+      "id": "ac43d767-4e65-4ceb-a5b6-0a0bb45ed587",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1035}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b23fe4-23b1-4b24-80d1-6e66806360db",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08c25cdc-f48b-4107-bb1e-f52a6a42f1f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "albart"
+    }, {
+      "id": "4989c0ba-35fc-42a9-85d5-e32fb56d0483",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.Locator-filtersButton",
+      "targets": [
+        ["css=.Locator-filtersButton", "css:finder"],
+        ["xpath=//form[@id='search-form']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "236ea3fb-df65-4cd9-b1f8-3c27990adb0e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.bestbuy.ca/"],
+  "plugins": []
+}
