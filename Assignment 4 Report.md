@@ -80,14 +80,21 @@ In our test suite, we have covered this scenario where the test case expects tha
 
 # Report all the statistics and the mutation score for each test class
 
+## Range Initial
+![Range Initial](https://user-images.githubusercontent.com/81999006/159105239-c92a499c-0f27-4b70-8a5b-b562d9c22c49.png)
 
+## Range Final
+![Range Final](https://user-images.githubusercontent.com/81999006/159105236-5f274e78-7aca-413b-9dc1-023b46f074b2.png)
+
+## DataUtilities Initial
+
+## DataUtilities Final
 
 # Analysis drawn on the effectiveness of each of the test classes
 
-
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
-Equivalent mutants will negatively affect mutation score and will decrease the accuracy of mutation score as they will produce the same output as the original program and survive mutant testing. This issue will make it quite hard to obtain a mutant score of 100% one must take this fact into consideration when evaluating mutant scores. Equivalent mutants can often be found in loop conditions and post incrementing a value which is not used again in code. There can be other equivalent mutants as well, one has to look for mutants that are syntactically different  but semantically the same to find equivalent mutants.
+Equivalent mutants will negatively affect mutation score and will decrease the accuracy of mutation score as they will produce the same output as the original program and survive mutant testing. This issue will make it quite hard to obtain a mutant score of 100% one must take this fact into consideration when evaluating mutant scores. Equivalent mutants can often be found in loop conditions and post incrementing a value which is not used again in code. These equivalent mutants were found multiple times in our test cases for Range and DataUtilities. Post increment and decrement had no effect on the expected behaviour, since the function ended before the incremented/decremented variable could be used again. There can be other equivalent mutants as well, one has to look for mutants that are syntactically different  but semantically the same to find equivalent mutants.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
